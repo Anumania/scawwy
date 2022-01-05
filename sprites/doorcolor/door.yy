@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 32,
-  "height": 32,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c549ca0d-c789-4e7b-b1a7-78e701a7c93a","path":"sprites/woodfloorgray/woodfloorgray.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c549ca0d-c789-4e7b-b1a7-78e701a7c93a","path":"sprites/woodfloorgray/woodfloorgray.yy",},"LayerId":{"name":"37d337b9-037c-4163-8f1d-04f16769e714","path":"sprites/woodfloorgray/woodfloorgray.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"woodfloorgray","path":"sprites/woodfloorgray/woodfloorgray.yy",},"resourceVersion":"1.0","name":"c549ca0d-c789-4e7b-b1a7-78e701a7c93a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"abf6fefc-d890-488c-a22c-9e40eeba7c1d","path":"sprites/door/door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"abf6fefc-d890-488c-a22c-9e40eeba7c1d","path":"sprites/door/door.yy",},"LayerId":{"name":"5a9bb7c8-55bc-40bd-b6b2-109475acd776","path":"sprites/door/door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"door","path":"sprites/door/door.yy",},"resourceVersion":"1.0","name":"abf6fefc-d890-488c-a22c-9e40eeba7c1d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"woodfloorgray","path":"sprites/woodfloorgray/woodfloorgray.yy",},
+    "spriteId": {"name":"door","path":"sprites/door/door.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"abb85871-53dd-4682-be87-04a7bec0e3ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c549ca0d-c789-4e7b-b1a7-78e701a7c93a","path":"sprites/woodfloorgray/woodfloorgray.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"143bd96a-031b-402f-8bfc-7d9cb4732123","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abf6fefc-d890-488c-a22c-9e40eeba7c1d","path":"sprites/door/door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"woodfloorgray","path":"sprites/woodfloorgray/woodfloorgray.yy",},
+    "parent": {"name":"door","path":"sprites/door/door.yy",},
     "resourceVersion": "1.3",
-    "name": "woodfloorgray",
+    "name": "door",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37d337b9-037c-4163-8f1d-04f16769e714","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5a9bb7c8-55bc-40bd-b6b2-109475acd776","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "greysprites",
+    "path": "folders/Sprites/greysprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "woodfloorgray",
+  "name": "door",
   "tags": [],
   "resourceType": "GMSprite",
 }

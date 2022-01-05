@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "greysprites",
+    "path": "folders/Sprites/greysprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "tilesmallgrey",
