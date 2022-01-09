@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 55,
+  "bbox_left": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"aa990dc4-55c7-4694-9e9e-7d4d2baa22ae","path":"sprites/corkboardcolor/corkboardcolor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aa990dc4-55c7-4694-9e9e-7d4d2baa22ae","path":"sprites/corkboardcolor/corkboardcolor.yy",},"LayerId":{"name":"e9c70de1-07ca-474d-b015-20e2ee38e41b","path":"sprites/corkboardcolor/corkboardcolor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"corkboardcolor","path":"sprites/corkboardcolor/corkboardcolor.yy",},"resourceVersion":"1.0","name":"aa990dc4-55c7-4694-9e9e-7d4d2baa22ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aa443fbc-59cf-43d5-98b6-b3f090fc7056","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aa443fbc-59cf-43d5-98b6-b3f090fc7056","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},"LayerId":{"name":"38139f35-cd96-4797-8856-17af655893ae","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"windowsblindsopengrey","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},"resourceVersion":"1.0","name":"aa443fbc-59cf-43d5-98b6-b3f090fc7056","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"corkboardcolor","path":"sprites/corkboardcolor/corkboardcolor.yy",},
+    "spriteId": {"name":"windowsblindsopengrey","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"23c15dae-ed42-45be-8e2e-16ba0dcd2309","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa990dc4-55c7-4694-9e9e-7d4d2baa22ae","path":"sprites/corkboardcolor/corkboardcolor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7600cb60-bd44-4d90-a06f-9c5d0b44aa11","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa443fbc-59cf-43d5-98b6-b3f090fc7056","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"corkboardcolor","path":"sprites/corkboardcolor/corkboardcolor.yy",},
+    "parent": {"name":"windowsblindsopengrey","path":"sprites/windowsblindsopengrey/windowsblindsopengrey.yy",},
     "resourceVersion": "1.3",
-    "name": "corkboardcolor",
+    "name": "windowsblindsopengrey",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e9c70de1-07ca-474d-b015-20e2ee38e41b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"38139f35-cd96-4797-8856-17af655893ae","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "color",
-    "path": "folders/Sprites/color.yy",
+    "name": "greysprites",
+    "path": "folders/Sprites/greysprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "corkboardcolor",
+  "name": "windowsblindsopengrey",
   "tags": [],
   "resourceType": "GMSprite",
 }
