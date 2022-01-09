@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 18,
+  "bbox_right": 32,
   "bbox_top": 0,
-  "bbox_bottom": 19,
+  "bbox_bottom": 32,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 19,
-  "height": 20,
+  "width": 33,
+  "height": 33,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"16b57f19-e9e2-4676-9b03-db54e99fbf04","path":"sprites/clockcolor/clockcolor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16b57f19-e9e2-4676-9b03-db54e99fbf04","path":"sprites/clockcolor/clockcolor.yy",},"LayerId":{"name":"d18c6748-000b-4d41-8c3e-644f7196a3ea","path":"sprites/clockcolor/clockcolor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"clockcolor","path":"sprites/clockcolor/clockcolor.yy",},"resourceVersion":"1.0","name":"16b57f19-e9e2-4676-9b03-db54e99fbf04","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"835ab2e8-e1cf-4c13-b25e-0d59774f3ee0","path":"sprites/stairsgrey53/stairsgrey53.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"835ab2e8-e1cf-4c13-b25e-0d59774f3ee0","path":"sprites/stairsgrey53/stairsgrey53.yy",},"LayerId":{"name":"5990ad51-ecb5-4aad-87fc-2d2326f03b6a","path":"sprites/stairsgrey53/stairsgrey53.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"stairsgrey53","path":"sprites/stairsgrey53/stairsgrey53.yy",},"resourceVersion":"1.0","name":"835ab2e8-e1cf-4c13-b25e-0d59774f3ee0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"clockcolor","path":"sprites/clockcolor/clockcolor.yy",},
+    "spriteId": {"name":"stairsgrey53","path":"sprites/stairsgrey53/stairsgrey53.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a4d76fca-050f-422d-acba-03175f9e21df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16b57f19-e9e2-4676-9b03-db54e99fbf04","path":"sprites/clockcolor/clockcolor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b59419ca-3a79-4ca8-a030-6bb9a61c851e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"835ab2e8-e1cf-4c13-b25e-0d59774f3ee0","path":"sprites/stairsgrey53/stairsgrey53.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"clockcolor","path":"sprites/clockcolor/clockcolor.yy",},
+    "parent": {"name":"stairsgrey53","path":"sprites/stairsgrey53/stairsgrey53.yy",},
     "resourceVersion": "1.3",
-    "name": "clockcolor",
+    "name": "stairsgrey",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d18c6748-000b-4d41-8c3e-644f7196a3ea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5990ad51-ecb5-4aad-87fc-2d2326f03b6a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "color",
-    "path": "folders/Sprites/color.yy",
+    "name": "color2",
+    "path": "folders/Sprites/color2.yy",
   },
   "resourceVersion": "1.0",
-  "name": "clockcolor",
+  "name": "stairsgrey53",
   "tags": [],
   "resourceType": "GMSprite",
 }
